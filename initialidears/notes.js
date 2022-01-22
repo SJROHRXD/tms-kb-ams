@@ -58,6 +58,8 @@
 
 // Defining Functionality ✨
 
+// 
+
 // DESIGN 🌼
 // Sketch, first prototype ✅
 // Plan workflow (doing that now)
@@ -79,7 +81,7 @@
 // When test? How test?
 // Unit testing, nothing too complex***
 
-// Disorganized Thoughts
+// Disorganized Thoughts 🧁
 // What tech am I going to use?
 // Vanilla Stack: HTML, CSS, JS + Node and probably SQL backend but nottt quite sure yet
 // Will need to figure out Auth's - Authentication and Authorization
@@ -87,3 +89,39 @@
 // Classes / OOP for the Templates and Tasks
 // Open tasks could be overwhelming - mass "halt" option w/ note from queue view
 // Calendar integrations
+
+// Relational Databases 🌿
+// RDBMS or SQL db
+// stores data in tables and rows, referred to as records
+// SQL Server, Oracle DB, MySQL, IBM DB2
+// Free versions: SQL Server Express, PostgrSQL, SQLite, MySQL, MariaDB
+// links information from multiple tables through the use of "keys"
+// a key is a unique identifier, called a primary key
+// included in a record located in another table when that record has a relationship to the primary record
+// when unique primary key is added to a record in another table, it is called a foreign key in the associated table
+// the connection between primary and foreign key creates a "relationship"
+// referential integrity, the accuracy and consistency of data
+// data integrity is achieved by using primary and foreign keys
+// referential integrity preserves data integrity through contraints
+// contraints are the rules that enforce data accuracy by preventing a related record from being deleted without first deleting primary record in main table
+// if primary-foreign key relationship added, attempting to delete a primary record will be blocked
+// prevents orphaned records
+// three rules referential integrity enforces:
+// a foreign key must have a corresponding primary key
+// when a record in a primary table is deleted, all related records referencing primary key must also be deleted (cascade delete)
+// if primary key changes, all corresponding records in other tables using primary key must be modified (cascade update)
+// querying data is done by using Structured Query Language, SQL
+// SQL can create, retrieve, update and delete records
+// heavily relies on primary/foreign key relationship to identify related data
+// first choice for an app that requires strong transactional functionality, data mining, complex reporting
+// relational databases also provide "indexing"
+// a database index is a structure which improves the speed of data retrieval
+
+// YEAH I think I'm going with MySQL
+
+// STORING USER FILES
+/* When you build a web application, one thing you may need to think about is how you plan to store user files.
+
+If you’re building an application that requires users to upload or download files (images, documents, receipts, etc.) — file storage can be an important part of your application architecture.
+
+Deciding where you’ll store these files, how you’ll access them, and how you’ll secure them is an important part of the engineering process, and can take quite a bit of time to figure out for complex applications. */
