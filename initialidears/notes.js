@@ -117,11 +117,25 @@
 // relational databases also provide "indexing"
 // a database index is a structure which improves the speed of data retrieval
 
-// YEAH I think I'm going with MySQL
+// YEAH I think I'm going with MySQL 🎈
 
-// STORING USER FILES
+// STORING USER FILES 🛒
 /* When you build a web application, one thing you may need to think about is how you plan to store user files.
 
 If you’re building an application that requires users to upload or download files (images, documents, receipts, etc.) — file storage can be an important part of your application architecture.
 
 Deciding where you’ll store these files, how you’ll access them, and how you’ll secure them is an important part of the engineering process, and can take quite a bit of time to figure out for complex applications. */
+
+// File Storage Options - (article a little outdated but probably still applies)
+// Store user files in your database in a text column, or something similar
+// Store user files directly on your web server
+// Store user files in a file storage service like Amazon S3
+
+// Concerns include security, size of files, scalability / total files stored might be like a lottt
+// Think about how users might move, delete a file (uploading and removing from related task probably most common initially)
+// Use an API layer to provide security - need to figure out how
+// CLOUD BASED OBJECT STORAGE SERVICE
+
+// https://cloud.google.com/storage 🍧
+// probably going to roll with google because it's familiar-ish
+
