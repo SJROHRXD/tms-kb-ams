@@ -42,7 +42,7 @@ How much will it improve my life?
         Does a market for this exist?
 
         🌷 Yes, and it always will for task management and asset management and knowledge management
-        I am the market.
+        🌷 I am the market.
 
         My app's target market:
 
