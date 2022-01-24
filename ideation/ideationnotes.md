@@ -1,5 +1,9 @@
 # IDEATION NOTES 🥄 #
 
+- [Source an idea](#Source-an-idea)
+- [Market research](#Market-research)
+- [Define functionality](#Define-functionality)
+
 ### Source an idea ###
 
 - What is it? What problem am I solving? 🤍
