@@ -141,3 +141,5 @@ Deciding where you’ll store these files, how you’ll access them, and how you
 
 // graphQL - debugging, querying, accessing db from application
 // graphQL + services
+
+// primsa???
