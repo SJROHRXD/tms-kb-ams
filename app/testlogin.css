@@ -1,3 +1,7 @@
+body {
+  background-color: #191943;
+}
+
 .divider:after,
 .divider:before {
   content: "";
@@ -5,11 +9,73 @@
   height: 1px;
   background: #eee;
 }
+
 .h-custom {
   height: calc(100% - 73px);
+
 }
 @media (max-width: 450px) {
   .h-custom {
     height: 100%;
   }
+}
+
+.btn {
+  background-color: #F272AE;
+  border-style: none;
+  }
+
+.btn:hover {
+  background-color: #F272AE;
+  filter: brightness(.90) !important;
+  border-style: none;
+}
+
+.btn:focus {
+  background-color: #F272AE;
+  filter: brightness(.75) !important;
+  border-style: none;
+}
+
+.form-check-label {
+  color: #F272AE;
+}
+
+p {
+  color: #F272AE;
+}
+
+.link {
+  color: #F5E3CF;
+}
+.link:hover {
+  color: #F2B61B;
+}
+
+.form-control {
+  background-color: #F272AE !important;
+  color: #F5E3CF !important;
+}
+
+input[type="checkbox" i] {
+  background-color: #F272AE !important;
+}
+
+input[type="checkbox" i]:checked {
+  background-color: #F272AE !important;
+  /* testing filter situation */
+  filter: opacity(80%);
+}
+
+.sectionChunky {
+  background-color: #F2D0E6;
+  /* margin: 5%; */
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: .3rem;
+}
+
+input[type="password" i] {
+  /* font-family: text-security-square; */
+  -webkit-text-security: square !important; 
 }
